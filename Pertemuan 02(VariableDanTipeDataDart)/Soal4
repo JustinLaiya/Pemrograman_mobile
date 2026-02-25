@@ -1,0 +1,3 @@
+Buatlah penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel !
+
+Null Safety meningkatkan keamanan program dari kesalahan null, sedangkan late memberikan fleksibilitas dalam penundaan inisialisasi variabel tanpa mengorbankan aturan non-nullable.

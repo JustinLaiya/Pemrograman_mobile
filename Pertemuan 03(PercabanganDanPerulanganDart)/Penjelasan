@@ -1,0 +1,16 @@
+Praktik1
+Control Flow : Output dari kode pada file Control Flow Merupakan "Test2, dan Test2 again" karena pada 2 pengecekan tersebut karena kondisi pertama dan kedua Merupakan Test2
+
+Langkah 3 pada line 13 sd 16 error 
+
+
+Praktik2
+Loop : Karena variabel belum ter-deklarasi
+
+Karena batas counter berubah menjadi <77
+
+
+Praktik3
+ForLoop : Error karena variabel belum ter-deklarasi, huruf besar dan kecil, Tidak ada increment.
+
+error karena if dan else if harusnya berawalan huruf kecil, dan ||(salah satu benar) &&(kedua harus benar)
