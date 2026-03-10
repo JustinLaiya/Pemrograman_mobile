@@ -1,0 +1,110 @@
+1. Silakan selesaikan Praktikum 1 sampai 5, lalu dokumentasikan berupa screenshot hasil pekerjaan Anda beserta penjelasannya!
+2. Jelaskan yang dimaksud Functions dalam bahasa Dart!
+3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
+4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
+5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
+6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
+7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
+
+Jawaban:
+1. 
+
+2. Function adalah sekumpulan kode program yang digunakan untuk menjalankan suatu tugas tertentu. Function dibuat agar kode program lebih rapi, mudah digunakan kembali, dan tidak perlu menulis kode yang sama berulang kali.
+
+3. Parameter adalah nilai yang dikirim ke dalam function saat function dipanggil.
+    1. Required Parameter
+    Parameter yang harus diisi saat function dipanggil.
+    Contoh:
+    void sapa(String nama) {
+    print("Halo $nama");
+    }
+    void main() {
+    sapa("Justin");
+    }
+
+    2. Optional Positional Parameter
+    Parameter yang boleh diisi atau tidak dan ditulis menggunakan tanda [].
+    Contoh:
+    void sapa(String nama, [String? pesan]) {
+    print("$nama $pesan");
+    }
+    void main() {
+    sapa("Justin");
+    }
+
+    3. Optional Named Parameter
+    Parameter yang ditulis menggunakan tanda {} dan dipanggil menggunakan nama parameternya.
+    Contoh:
+    void mahasiswa({String? nama, String? nim}) {
+    print("Nama: $nama");
+    print("NIM: $nim");
+    }
+    void main() {
+    mahasiswa(nama: "Justin", nim: "244107060142");
+    }
+
+    4. Default Parameter
+    Parameter yang memiliki nilai bawaan jika tidak diisi.
+    Contoh:
+    void sapa(String nama, {String pesan = "Selamat datang"}) {
+    print("$nama $pesan");
+    }
+    void main() {
+    sapa("Justin");
+    }
+
+4. Dalam Dart, function dapat diperlakukan seperti variabel. Artinya function bisa disimpan dalam variabel, dikirim sebagai parameter, atau dikembalikan dari function lain.
+    Contoh:
+    void sayHello() {
+    print("Hello Justin");
+    }
+    void main() {
+    var fungsi = sayHello;
+    fungsi();
+    }
+
+5. Anonymous Function adalah function yang tidak memiliki nama. Biasanya digunakan secara langsung pada suatu proses seperti perulangan atau operasi tertentu.
+    Contoh:
+    void main() {
+    var daftar = ['Justin', 'Budi', 'Andi'];
+
+    daftar.forEach((nama) {
+        print(nama);
+    });
+    }
+
+6. Lexical Scope
+    Lexical scope adalah aturan bahwa suatu variabel hanya bisa diakses dalam area tempat variabel tersebut dibuat.
+    Contoh:
+    void main() {
+    var nama = "Justin";
+    void tampil() {
+        print(nama);
+    }
+    tampil();
+    }
+
+    Lexical Closures
+    Lexical closure adalah function yang masih bisa mengakses variabel dari scope luar walaupun function tersebut dijalankan di tempat lain.
+    Contoh:
+    Function hitung(int angka) {
+    return (int nilai) => angka + nilai;
+    }
+    void main() {
+    var tambah = hitung(10);
+    print(tambah(5));
+    }
+
+7. Di Dart kita bisa mengembalikan lebih dari satu nilai menggunakan Record.
+    Contoh:
+    (String, int) getMahasiswa() {
+    return ("Justin Laiya", 244107060142);
+    }
+    void main() {
+    var data = getMahasiswa();
+    print(data.$1);
+    print(data.$2);
+    }
+    Output: 
+    Justin Laiya
+    244107060142

@@ -1,0 +1,27 @@
+Pada baris pertama dibuat variabel list yang berisi tiga elemen yaitu 1, 2, dan 3
+Pada baris kedua dibuat variabel list2 yang berisi angka 0 kemudian diikuti dengan isi dari list menggunakan Spread Operator (...)
+Spread operator digunakan untuk memasukkan semua elemen dari list lain ke dalam list baru
+Pada baris berikutnya program mencetak isi dari list, list2, dan panjang dari list2.
+
+Pada baris pertama dibuat variabel list1 yang berisi 1, 2, dan null
+Kemudian program mencetak isi list1.
+Pada baris berikutnya dibuat variabel list3 yang berisi angka 0 kemudian diikuti isi list1 menggunakan Null-aware Spread Operator (...?)
+Operator ini digunakan agar program tidak error jika list bernilai null.
+Selanjutnya dibuat variabel baru yang berisi NIM menggunakan Spread Operator.
+
+Langkah 4
+Kode tersebut menggunakan Collection If di dalam List
+Jika variabel promoActive bernilai true, maka elemen Outlet akan ditambahkan ke dalam list.
+
+Langkah 5
+Pada kode ini digunakan kondisi if untuk mengecek apakah nilai variabel login adalah Manager
+Jika benar, maka Inventory akan ditambahkan ke dalam list.
+
+Langkah 6
+Kode ini menggunakan Collection For di dalam List.
+for (var i in listOfInts) akan melakukan perulangan terhadap setiap elemen dalam listOfInts.
+Setiap angka akan diubah menjadi String dengan format #angka.
+Contohnya:
+1 menjadi #1
+2 menjadi #2
+3 menjadi #3

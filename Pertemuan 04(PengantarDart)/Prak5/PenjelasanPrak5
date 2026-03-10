@@ -1,0 +1,18 @@
+Pada baris pertama dibuat variabel record yang berisi beberapa nilai menggunakan Record
+Record adalah tipe data di Dart yang dapat menyimpan beberapa nilai dengan tipe data berbeda dalam satu variabel.
+
+Fungsi tukar() digunakan untuk menukar posisi nilai dalam record
+Pada line ke 2 Record akan dipecah menjadi dua variabel yaitu a dan b
+Kemudian fungsi mengembalikan nilai (b, a) sehingga posisi datanya tertukar.
+
+Pada baris pertama dibuat variabel mahasiswa dengan tipe Record yang berisi dua field bertipe String
+Jika langsung diprint sebelum diisi maka akan error karena variabel belum memiliki nilai
+Oleh karena itu variabel harus diinisialisasi terlebih dahulu dengan nama dan NIM.
+
+Pada kode ini record memiliki field posisi dan field bernama.
+Cara mengaksesnya:
+$1 → field posisi pertama
+$2 → field posisi kedua
+.a → field bernama a
+.b → field bernama b
+Pada contoh $1 dan .a  diganti dengan nama dan NIM.

@@ -1,0 +1,12 @@
+Pada line pertama setelah main dibuat variabel gifts yang berisi beberapa pasangan key dan value menggunakan struktur data Map,
+Kemudian dibuat variabel nobleGases yang juga merupakan Map, dimana key berupa angka dan value berupa nama gas mulia
+Setelah itu program menggunakan print() untuk menampilkan isi dari Map gifts dan Map nobleGases.
+
+Pada variabel gifts menambahkan elemen baru yaitu nama dan NIM menggunakan key 'nama' dan 'nim,
+Pada variabel nobleGases juga ditambahkan nama dan NIM sebagai value dengan key berupa angka.
+
+Kemudian dibuat variabel mhs1 menggunakan Map<String, String>, yang berarti key dan value harus bertipe String
+Data nama dan NIM dimasukkan ke dalam mhs1 menggunakan tanda [].
+
+Selanjutnya dibuat variabel mhs2 menggunakan Map<int, String>, dimana key berupa angka dan value berupa String
+Program kemudian menampilkan isi dari mhs1 dan mhs2 menggunakan print().

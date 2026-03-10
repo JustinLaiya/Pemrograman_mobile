@@ -1,0 +1,18 @@
+Pada line pertama setelah main membuat variabel bernama halogens yang berisi beberapa elemen yaitu fluorine, chlorine, bromine, iodine, dan astatine.
+Variabel tersebut menggunakan kurung kurawal {} yang menandakan bahwa tipe datanya adalah Set.
+
+Kemudian pada baris berikutnya program menggunakan print untuk menampilkan isi dari Set halogens.
+
+Pada baris pertama dibuat variabel names1 yang merupakan Set kosong bertipe String.
+
+Pada baris kedua dibuat variabel names2 yang juga merupakan Set kosong bertipe String.
+
+Pada baris ketiga dibuat variabel names3, namun variabel ini sebenarnya membuat Map, bukan Set.
+Karena pada praktikum ini hanya membahas Set, maka variabel names3 dihapus dari penggunaan program.
+
+Selanjutnya Memambahkan data ke dalam Set
+Pada names1 digunakan fungsi add untuk menambahkan satu elemen yaitu nama.
+
+Pada names2 digunakan fungsi addAll untuk menambahkan beberapa elemen sekaligus yaitu nama dan NIM.
+
+Kemudian program mencetak isi dari names1 dan names2 menggunakan print.

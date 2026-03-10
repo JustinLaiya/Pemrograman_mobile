@@ -1,0 +1,20 @@
+Pada line pertama setelah Void main() Membuat sebuah list berisi tiga elemen yaitu 1, 2, dan 3
+
+Pada Line kedua mengecek apakah panjang list =3
+
+Pada Line ketiga mengecek apakah index 1 merupakan angka 2
+
+Pada line keempat program mencetak panjang list menggunakan print(list.length) sehingga output yang ditampilkan adalah 3.
+
+Pada line kelima program mencetak nilai pada index ke 1 menggunakan print(list[1]), sehingga yang ditampilkan adalah 2.
+
+Pada line keenam nilai pada index ke 1 diubah dari 2 menjadi 1 dengan kode list[1] = 1.
+
+Pada line ketujuh program mengecek kembali menggunakan assert(list[1] == 1) untuk memastikan bahwa nilai pada index ke-1 sudah berubah menjadi 1.
+
+Pada line terakhir program mencetak kembali nilai pada index ke-1 menggunakan print(list[1]), sehingga output yang muncul adalah 1.
+
+Pada langkah ke 3 line pertama setelah void digunakan untuk membuat sebuah list dengan jumlah 5 index yang nilai awalnya null. list tersebut memiliki index 0 sampai 4 dan semuanya masih kosong.
+Selain itu digunakan String? karena list tersebut akan diisi dengan teks, yaitu nama dan NIM. Tanda ? berarti nilai pada list boleh null, sehingga saat pertama kali dibuat semua index bisa berisi null.
+Kemudian digunakan final karena variabel list tersebut tidak akan diganti dengan list baru, tetapi isi di dalam list masih bisa diubah, seperti pada saat mengisi nama di index ke-1 dan NIM di index ke-2.
+
